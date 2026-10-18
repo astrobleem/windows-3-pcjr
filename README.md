@@ -12,6 +12,10 @@ Ready-built **TNDYJR.DRV**, **JRWIN.COM**, **JRGUARD.COM**, installation/rollbac
 
 [Release notes](https://github.com/astrobleem/oemdisplay-tandy/releases/tag/experimental-displays-2026-10-12) · [Prerequisites](#prerequisites) · [Install](#install-in-a-clone) · [Rollback](#rollback-from-plain-dos) · [Source & support](#source--support)
 
+[![DOSBox-X PCjr capture of the clean Windows 3.0 install, Program Manager and Main group at 320×200](https://raw.githubusercontent.com/astrobleem/oemdisplay-tandy/613137d0029817b42e141a11685182d867da911d/docs/pcjr/INSTALL/DESKTOP.PNG)](https://github.com/astrobleem/oemdisplay-tandy/blob/613137d0029817b42e141a11685182d867da911d/docs/pcjr/INSTALL/DESKTOP.PNG)
+
+DOSBox-X `machine=pcjr`, Windows 3.0 clean-install capture from [PR #138](https://github.com/astrobleem/oemdisplay-tandy/pull/138); its [session record](https://github.com/astrobleem/oemdisplay-tandy/blob/613137d0029817b42e141a11685182d867da911d/docs/pcjr/INSTALL/SESSION.JSN) reports 26/26 checks. Emulator evidence only, not a hardware photo.
+
 [![DOSBox-X PCjr emulator capture: Windows 3.0 Solitaire, with a saved window partly off screen](https://raw.githubusercontent.com/astrobleem/oemdisplay-tandy/ba980d4ccf9092c38ea22b006373f420d0f059e2/docs/pcjr/WINJR02.PNG)](https://github.com/astrobleem/oemdisplay-tandy/blob/ba980d4ccf9092c38ea22b006373f420d0f059e2/docs/pcjr/WINJR02.PNG)
 
 DOSBox-X PCjr emulator capture: Solitaire in 16 colors. Original 640×400 capture of the 320×200 guest mode. Saved AT/EGA window positions can sit partly off screen. [Capture details and historical evidence](https://github.com/astrobleem/oemdisplay-tandy/blob/ba980d4ccf9092c38ea22b006373f420d0f059e2/docs/PCJR.MD).
@@ -87,6 +91,7 @@ This repository is the documentation and download front door. All implementation
 - [Published SHA-256 checksums](https://github.com/astrobleem/oemdisplay-tandy/releases/download/experimental-displays-2026-10-12/SHA256SUMS)
 
 Release/package source: [`37b504be3619032f435381eded7d92a504d8d9da`](https://github.com/astrobleem/oemdisplay-tandy/commit/37b504be3619032f435381eded7d92a504d8d9da). Runtime adaptation and screenshot evidence: [`ba980d4ccf9092c38ea22b006373f420d0f059e2`](https://github.com/astrobleem/oemdisplay-tandy/commit/ba980d4ccf9092c38ea22b006373f420d0f059e2).
+PR #138's clean-install evidence was merged at [613137d](https://github.com/astrobleem/oemdisplay-tandy/commit/613137d0029817b42e141a11685182d867da911d). It did not publish a new `PCJR.ZIP`; the downloadable asset above remains from the [2026-10-12 release commit](https://github.com/astrobleem/oemdisplay-tandy/commit/37b504be3619032f435381eded7d92a504d8d9da).
 
 `PCJR.ZIP` SHA-256: `e2f471329f03c518faf6dee9ad019b2cfb56b14305c7c7a81170d04b30162aa9`.
 

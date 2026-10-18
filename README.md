@@ -4,7 +4,15 @@
 
 An experimental display driver for Windows 3.0 real mode on the IBM PCjr. Recorded Windows results are from emulators; physical PCjr hardware remains unqualified.
 
-## [Download PCJR.ZIP →](https://github.com/astrobleem/oemdisplay-tandy/releases/download/experimental-displays-2026-10-12/PCJR.ZIP)
+## Clean Setup packet: PCJRSET.ZIP
+
+**[Download PCJRSET.ZIP →](https://raw.githubusercontent.com/astrobleem/oemdisplay-tandy/main/downloads/experimental/PCJR/PCJRSET.ZIP)** — 114,981 bytes; SHA-256 `c2964c856e2f8475ecff4e3b6e76f28344d63bac78a8b284bee748d29ac0d682`.
+
+This is a repository-file download, not an asset in the 2026-10-12 GitHub release. The packet supports clean Windows Setup and changing an existing installation, with the PCjr-safe grabber, original XT Pixels fonts, static artwork, guard and launcher. You supply your own DOS and Windows 3.0 media. See the [package guide](https://github.com/astrobleem/oemdisplay-tandy/blob/main/downloads/experimental/PCJR/README.MD).
+
+## Earlier cloned-install release packet
+
+[Download PCJR.ZIP](https://github.com/astrobleem/oemdisplay-tandy/releases/download/experimental-displays-2026-10-12/PCJR.ZIP)
 
 Ready-built **TNDYJR.DRV**, **JRWIN.COM**, **JRGUARD.COM**, installation/rollback instructions, checksums and component notices. Bring your own Windows 3.0 installation.
 
@@ -14,7 +22,7 @@ Ready-built **TNDYJR.DRV**, **JRWIN.COM**, **JRGUARD.COM**, installation/rollbac
 
 [![DOSBox-X PCjr capture of the clean Windows 3.0 install, Program Manager and Main group at 320×200](https://raw.githubusercontent.com/astrobleem/oemdisplay-tandy/613137d0029817b42e141a11685182d867da911d/docs/pcjr/INSTALL/DESKTOP.PNG)](https://github.com/astrobleem/oemdisplay-tandy/blob/613137d0029817b42e141a11685182d867da911d/docs/pcjr/INSTALL/DESKTOP.PNG)
 
-DOSBox-X `machine=pcjr`, Windows 3.0 clean-install capture from [PR #138](https://github.com/astrobleem/oemdisplay-tandy/pull/138); its [session record](https://github.com/astrobleem/oemdisplay-tandy/blob/613137d0029817b42e141a11685182d867da911d/docs/pcjr/INSTALL/SESSION.JSN) reports 26/26 checks. Emulator evidence only, not a hardware photo.
+DOSBox-X `machine=pcjr`, Windows 3.0 clean-Setup capture. PR #138 merged at [613137d](https://github.com/astrobleem/oemdisplay-tandy/commit/613137d0029817b42e141a11685182d867da911d) after 40 host tests; the [session record](https://github.com/astrobleem/oemdisplay-tandy/blob/613137d0029817b42e141a11685182d867da911d/docs/pcjr/INSTALL/SESSION.JSN) reports 26/26 checks and records test source commit [9ae4408](https://github.com/astrobleem/oemdisplay-tandy/commit/9ae44084127fe5d2f0c57ee1e1842d1ee1885573). Emulator evidence only, not a hardware photo.
 
 [![DOSBox-X PCjr emulator capture: Windows 3.0 Solitaire, with a saved window partly off screen](https://raw.githubusercontent.com/astrobleem/oemdisplay-tandy/ba980d4ccf9092c38ea22b006373f420d0f059e2/docs/pcjr/WINJR02.PNG)](https://github.com/astrobleem/oemdisplay-tandy/blob/ba980d4ccf9092c38ea22b006373f420d0f059e2/docs/pcjr/WINJR02.PNG)
 
@@ -25,7 +33,7 @@ DOSBox-X PCjr emulator capture: Solitaire in 16 colors. Original 640×400 captur
 - IBM PCjr with expanded conventional memory and a **32 KB video page already excluded from program allocations**. The guard accepts segments 1800h–1FFFh wholly above the DOS arena or held inside one DOS-owned system MCB (owner 0008h). Program, TSR or COMMAND.COM ownership is refused. Real PCjr expansion/reservation schemes remain unqualified; do not widen the guard to make one pass.
 - A bootable backup or disposable clone of an existing Windows 3.0 installation, with a plain-DOS recovery route.
 - The first launcher release requires the exact `C:\PCJREXP` and `C:\WINDOWS` paths. Keep JRWIN and JRGUARD together with the complete packet.
-- Retain the existing fonts/grabber for the recorded clone route. Historical rendering tests used an AT/EGA install; the newer launcher test used EGA fonts and CGA.GR2. Fresh CGA-class installation is unqualified.
+- Retain the existing fonts/grabber for the recorded clone route. Historical rendering tests used an AT/EGA install; the newer launcher test used EGA fonts and CGA.GR2. Fresh CGA-class installation with the older PCJR.ZIP route is unqualified. The separate PCJRSET.ZIP packet passed a clean-Setup run in DOSBox-X; physical Setup remains unqualified.
 - Use a nonanimated WIN.COM. Tandy palette animation uses the wrong data port for PCjr.
 
 Read README.TXT in the ZIP and the [updated installation/recovery guide](https://github.com/astrobleem/oemdisplay-tandy/blob/a9d341d13bc24072c0f870f8ec3fe4caee12c45a/experiments/DISPLAY3/PCJR.TXT) before changing files. The updated guide also clarifies startup-logo behavior. PCjr has no 640×200×16 mode; this packet includes no TXT40 or TGA-II driver.

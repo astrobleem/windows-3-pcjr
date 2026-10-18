@@ -6,9 +6,13 @@ An experimental display driver for Windows 3.0 real mode on the IBM PCjr. Record
 
 ## Clean Setup packet: PCJRSET.ZIP
 
-**[Download PCJRSET.ZIP →](https://raw.githubusercontent.com/astrobleem/oemdisplay-tandy/main/downloads/experimental/PCJR/PCJRSET.ZIP)** — 114,981 bytes; SHA-256 `c2964c856e2f8475ecff4e3b6e76f28344d63bac78a8b284bee748d29ac0d682`.
+**[Download PCJRSET.ZIP →](https://raw.githubusercontent.com/astrobleem/oemdisplay-tandy/main/downloads/experimental/PCJR/PCJRSET.ZIP)** — 114,994 bytes; SHA-256 `a781614c5c8c5f6c498e6e9a82364b4c2c9c3c3f7e2b2be0c67b42b2f57c17d8`.
 
-This is a repository-file download, not an asset in the 2026-10-12 GitHub release. The packet supports clean Windows Setup and changing an existing installation, with the PCjr-safe grabber, original XT Pixels fonts, static artwork, guard and launcher. You supply your own DOS and Windows 3.0 media. See the [package guide](https://github.com/astrobleem/oemdisplay-tandy/blob/main/downloads/experimental/PCJR/README.MD).
+This current packet is a repository-file download, not a GitHub Release asset. It contains the PCjr-safe grabber, original XT Pixels fonts, static artwork, guard and launcher for clean Setup or an existing installation. The merged clean-Setup session passed in DOSBox-X; physical PCjr Setup and hardware remain unqualified. Supply your own DOS and Windows 3.0 media. See the [packet install and rollback guide](https://github.com/astrobleem/oemdisplay-tandy/blob/main/downloads/experimental/PCJR/README.MD).
+
+## Clean-Setup route
+
+Extract the complete `PCJREXP` folder from PCJRSET.ZIP to `C:\\PCJREXP`, run `C:\\PCJREXP\\JRGUARD` from plain DOS and continue only after **OK**. Follow the included `INSTALL.TXT` through Windows Setup; start each session with `C:\\PCJREXP\\JRWIN`. Undo through Windows Setup to restore the previous display. The [packet guide](https://github.com/astrobleem/oemdisplay-tandy/blob/main/downloads/experimental/PCJR/README.MD) has full recovery details.
 
 ## Earlier cloned-install release packet
 

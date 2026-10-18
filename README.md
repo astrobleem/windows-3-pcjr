@@ -12,7 +12,7 @@ This current packet is a repository-file download, not a GitHub Release asset. I
 
 ## Clean-Setup route
 
-Extract the complete `PCJREXP` folder from PCJRSET.ZIP to `C:\\PCJREXP`, run `C:\\PCJREXP\\JRGUARD` from plain DOS and continue only after **OK**. Follow the included `INSTALL.TXT` through Windows Setup; start each session with `C:\\PCJREXP\\JRWIN`. Undo through Windows Setup to restore the previous display. The [packet guide](https://github.com/astrobleem/oemdisplay-tandy/blob/main/downloads/experimental/PCJR/README.MD) has full recovery details.
+Extract the complete `PCJREXP` folder from PCJRSET.ZIP to `C:\PCJREXP`, run `C:\PCJREXP\JRGUARD` from plain DOS and continue only after **OK**. Follow the included `INSTALL.TXT` through Windows Setup; start each session with `C:\PCJREXP\JRWIN`. Undo through Windows Setup to restore the previous display. The [packet guide](https://github.com/astrobleem/oemdisplay-tandy/blob/main/downloads/experimental/PCJR/README.MD) has full recovery details.
 
 ## Earlier cloned-install release packet
 

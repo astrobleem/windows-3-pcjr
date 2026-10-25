@@ -45,17 +45,5 @@ to restore your previous display.
 
 ![PCjr clean Windows 3.0 Setup in DOSBox-X](https://raw.githubusercontent.com/astrobleem/oemdisplay-tandy/main/docs/pcjr/INSTALL/DESKTOP.PNG)
 
-<details>
-<summary>History, source and optional test records</summary>
-
-The older [PCJR.ZIP release](https://github.com/astrobleem/oemdisplay-tandy/releases/tag/experimental-displays-2026-10-12)
-was a driver-only update for an existing installation: it did not include
-Setup support or a logo. Those limits describe that historical packet.
-Use PCJRSET above for current installation.
-
-[Machine and test record](https://github.com/astrobleem/oemdisplay-tandy/blob/main/docs/PCJR.MD) ·
-[Packet details and checksums](https://github.com/astrobleem/oemdisplay-tandy/blob/main/downloads/experimental/PCJR/README.MD) ·
-[Source and issue tracking](https://github.com/astrobleem/oemdisplay-tandy).
-Component notices are included in the packet.
-
-</details>
+[Install guide](https://github.com/astrobleem/oemdisplay-tandy/blob/main/downloads/experimental/PCJR/README.MD) ·
+[Get help](https://github.com/astrobleem/oemdisplay-tandy/issues). Component notices are in the packet.
